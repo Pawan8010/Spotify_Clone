@@ -1,0 +1,440 @@
+* {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  margin-top: 0px;;
+  
+}
+
+.side-bar {
+  margin-top: 100px;
+  width: 350px;
+  background-color: black;
+  border-radius: 25px;
+  overflow: auto;
+  margin-bottom: 61px;
+
+}
+/* labrary */
+.labrary{
+  height: 75px;
+  margin-top: 0.1rem;
+  background-color: transparent;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+  position: relative;
+}
+
+.box1 img{
+  margin-right: 10px;
+  height: 1.25rem;
+  width: 1.25;
+  background: transparent;
+}
+.box1 a{
+ color: white;
+ text-decoration: none;
+  background-color: transparent;
+}
+
+.plus{
+  font-size: 1.2rem;
+
+}
+
+.lab-class{
+  height: 11rem;
+  background-color: #232323;
+ 
+  padding:15px;
+  border-radius: 25px;
+  margin: 0.7rem;
+  margin-right: 3.rem;
+  overflow: auto;
+}
+
+.dabbCreate{
+  font-size: 1rem;
+  background: transparent;
+  margin: 0.8rem 0 0.5 9;
+  
+}
+.badg{
+  color: black;
+  background-color: rgb(231, 236, 239);
+  font-weight: 400;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+
+  height: 2rem;
+  width: fit-content;
+
+}
+
+.badg:hover{
+ color: white;
+ background-color: black;
+ font-weight: 500;
+ 
+
+}
+#p{
+  font-size: 0.75rem;
+  background: transparent;
+}
+
+.policy{
+
+margin: 1rem;
+border-radius: 10px;
+background-color: black;
+}
+
+.policy a{
+ margin: 8px;
+  }
+
+  .policy h5 a{
+   font-size: 17px;
+   color: white;
+   font-weight: 300;    
+}
+
+ button{
+  padding: 6px 15px;
+  border: 1px solid grey;
+ margin-left: 20px;
+ border-radius: 25px;
+ text-align: center;
+ color: white;
+ opacity: 0.6;
+}
+button:hover{
+  font-size: larger;
+  border: 2px solid white;
+  color: white;
+  opacity: 1;
+
+}
+
+/* main */
+
+.main-contant {
+  flex: 1;
+  background-color: #1f1f1f;
+  margin-top: 72px;
+  overflow: auto;
+  /* display: flex; */
+  margin-left: 5px;
+  margin-bottom: 61px;
+
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  background-image: linear-gradient(90deg, red, blue);
+}
+
+
+
+.icon1{
+ font-size: x-large;
+ padding: 20px;
+ display: flex;
+ justify-items: center;
+ 
+}
+
+.icon2{
+  font-size: x-large;
+  padding: 20px;
+  display: flex;
+  justify-items: center;
+  
+ }
+
+ .search{
+   height: 48px;
+   width: 370px;
+   border-radius: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   margin-top: 10px;
+   border: 2px solid white;
+   opacity: 0.2;
+  
+   /* padding: 12px 64px 12px 48px; */
+ }
+
+ .search #name{
+  font-size: larger;
+  margin: 10px;
+  
+ }
+ 
+ .search #icon{
+  font-size: larger;
+  margin: 10px;
+ }
+ #input{
+  padding: 8px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  width: 250px;
+ }
+
+ .search:hover{
+ 
+  opacity: 1;
+ }
+
+ .nav-right{
+  display: flex;
+    align-items: center;
+    margin-left: 20rem;
+ }
+ 
+ .nav-right a{
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+  
+ }
+ .nav-right a:hover{
+ opacity: 1;
+  
+ }
+
+
+ .divider{
+  width: 1px;
+    height: 20px;
+    background-color: gray;
+    margin: 0 10px;
+ }
+
+ .login-btn{
+  background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+.btn{
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-evenly;
+}
+.btn button{
+  
+ color: aliceblue;
+ margin: 15px;
+ color: white;
+ border: none;
+ outline: none;
+ box-shadow: none;
+
+}
+.new {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-evenly;
+}
+
+.new button{
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.com{
+  display: flex;
+  justify-content: center;
+  margin-left: 20rem;
+  border-radius: 25px;
+}
+
+/* inner div card */
+.inner{
+  flex: 1rem;
+  background-color: #1f1f1f;
+  margin-top: 10px;
+  overflow: auto;
+  display: flex;
+
+}
+
+
+.card{
+  /* padding: 30px; */
+  margin: 5px;
+  height: 17rem;
+  width: 11rem;
+  background: transparent;
+  display: flex;
+  overflow-x:auto ;
+  
+
+}
+.card img{
+  border-radius: 50%;  
+}
+.card-body{
+  background: transparent;
+}
+
+p{
+  margin-top: 20px;
+  margin-left: 20px;
+  background: transparent;
+}
+
+.card:hover{
+  border: 2px solid grey;
+  opacity: 0.7;
+}
+
+.playlist{
+  display: flex;
+  background-color: #1f1f1f;
+  margin-top: 15px;
+
+}
+
+ .playlist .card-img-top2{
+  border-radius: 25px;
+  height: 8rem;
+
+}
+.he{
+  height: 11rem;
+}
+
+.audio{
+  display: flex;
+  background-color: #1f1f1f;
+  margin-top: 5rem;
+}
+.new{
+  height: 11rem;
+}
+.newplay{
+  display: flex;
+  background-color: #1f1f1f;
+ /* margin-top: 40px; */
+ height: 11rem;
+ margin-top: 5rem;
+
+}
+
+.newplay .play img{
+  border-radius: 25px;
+  height: 11rem;
+}
+
+.info{
+  margin-top:5rem;
+  display:flex;
+  height: 300px;
+ 
+
+}
+
+.company{
+
+  width: 200px;
+}
+.Communities{
+  width: 300px;
+  margin-left: 0.5rem;
+}
+
+.Spotify{
+  width: 300px;
+  margin-left: 4rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-size: small;
+  font-weight: 200;
+}
+.Useful-links{
+  margin-left: 20px;
+  width: 200px;
+   margin-left: 5px;
+}
+
+ .icon{
+  margin: 5px;
+  width: 400px;
+  display: flex;
+  margin-right: 20px;
+}
+.icon i{
+  padding: 10px;
+  font-size: x-large;
+  right: 10px;
+
+} 
+
+.icon i:hover{
+  font-size: xx-large;
+  background-color: #333;
+  border-radius: 50%;
+
+} 
+
+/* .icona{
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: #333;
+  border-radius: 50%;
+} */
